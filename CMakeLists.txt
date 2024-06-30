@@ -12,7 +12,7 @@ find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-
+find_package(nav2_bringup REQUIRED)
 include_directories(include)
 
 add_executable(kalman_filter src/kalman_filter.cpp)
